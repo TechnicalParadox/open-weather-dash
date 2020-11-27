@@ -6,9 +6,28 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Your Weather Dashboard</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g==" crossorigin="anonymous" />
-  <link rel="stylesheet" type="text/css" src="./assets/css/style.css"/>
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
 </head>
-<body>
+<body class="bg-dark">
+  <div class="container-fluid">
+    <div class="row p-3"> <!-- Main contents -->
+      <div class="col-lg-3 bg-secondary"> <!-- Search/history -->
+        <div class="d-flex p-1 justify-content-center"> <!-- Search -->
+          <input type="text" id="input_search" placeholder="Search for City, ST">
+          <input type="submit" id="btn_search" value="Search">
+        </div>
+        <div id="history" class="history d-none d-lg-block">
+          <p>test</p>
+          <p>test</p>
+          <p>test</p>
+        </div>
+        <!-- TODO: history -->
+      </div>
+      <div class="col-lg-9 bg-info p-4"> <!-- Weather info -->
+        info
+      </div>
+    </div>
+  </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js" integrity="sha512-8qmis31OQi6hIRgvkht0s6mCOittjMa9GMqtK9hes5iEQBQE/Ca6yGE5FsW36vyipGoWQswBj/QBm2JR086Rkw==" crossorigin="anonymous"></script>
   <script src="./assets/js/script.js"></script>
