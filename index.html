@@ -11,7 +11,7 @@
 <body class="bg-dark">
   <div class="container-fluid">
     <div class="row p-3"> <!-- Main contents -->
-      <div class="col-lg-3 bg-secondary"> <!-- Search/history -->
+      <div class="col-lg-3 col-xl-2 bg-secondary"> <!-- Search/history -->
         <div class="d-flex p-1 justify-content-center"> <!-- Search -->
           <input type="text" id="input_search" placeholder="Search for City, ST">
           <input type="submit" id="btn_search" value="Search">
@@ -23,9 +23,11 @@
         </div>
         <!-- TODO: history -->
       </div>
-      <div class="col-lg-9 bg-info p-4"> <!-- Weather info -->
+      <div class="col-lg-9 col-xl-10 bg-info p-4"> <!-- Weather info -->
         <div class="d-flex flex-column align-items-center">
+
           <h1 id="location" class="display-3">Lebanon, PA</h1>
+
           <div id="today" class="container w-100">
             <h4 id="date" class="row">11/28/2020</h4>
             <div class="row">
@@ -44,6 +46,47 @@
               </div>
             </div>
           </div>
+
+          <div id="future" class="container">
+            <div class="card-deck">
+              <div class="card">
+                <svg width="2.5em" height="2.5em" viewBox="0 0 16 16" class="card-img-top bi bi-cloud-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z"/>
+                </svg>
+                <h6 class="card-title">Temp/Humidity</h6>
+                <h6 class="card-subtitle text-muted">Date</h6>
+              </div>
+              <div class="card">
+                <svg width="2.5em" height="2.5em" viewBox="0 0 16 16" class="card-img-top bi bi-cloud-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z"/>
+                </svg>
+                <h6 class="card-title">Temp/Humidity</h6>
+                <h6 class="card-subtitle text-muted">Date</h6>
+              </div>
+              <div class="card">
+                <svg width="2.5em" height="2.5em" viewBox="0 0 16 16" class="card-img-top bi bi-cloud-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z"/>
+                </svg>
+                <h6 class="card-title">Temp/Humidity</h6>
+                <h6 class="card-subtitle text-muted">Date</h6>
+              </div>
+              <div class="card">
+                <svg width="2.5em" height="2.5em" viewBox="0 0 16 16" class="card-img-top bi bi-cloud-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z"/>
+                </svg>
+                <h6 class="card-title">Temp/Humidity</h6>
+                <h6 class="card-subtitle text-muted">Date</h6>
+              </div>
+              <div class="card">
+                <svg width="2.5em" height="2.5em" viewBox="0 0 16 16" class="card-img-top bi bi-cloud-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z"/>
+                </svg>
+                <h6 class="card-title">Temp/Humidity</h6>
+                <h6 class="card-subtitle text-muted">Date</h6>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
