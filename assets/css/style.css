@@ -1,3 +1,7 @@
 .history p{
   margin: 0;
 }
+
+.card {
+  box-shadow: 1px 1px 3px black;
+}
